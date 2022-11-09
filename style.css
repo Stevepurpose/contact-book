@@ -1,0 +1,278 @@
+.firstmodal{
+    justify-content: center;
+    display: none;
+    width:100% ;
+    height:100% ;
+    overflow: auto;
+background-color: rgba(0, 0, 0, 0.848);
+backdrop-filter: blur(18px);
+color: white;
+} 
+
+.fmodalcontent{
+    display: grid;
+    color: white;
+}
+#userform{
+    display:none;
+    margin-top:90px;
+    position: relative;
+    bottom: 100px;
+    left: 600px;
+    
+}
+#payname{
+    display:none;
+    margin-left: 5px;
+}
+#showname:hover #payname {
+display: block;
+
+background-color: white;
+color:black;
+visibility:visible;
+
+}
+#contact:hover{
+    color: aqua;
+    background-color: yellow;
+}
+
+#contact{
+    margin-left: 620px;
+    font-size: 60px;
+    position: relative;
+    top: 200px;
+}
+
+hr{
+    opacity: 0.4;
+}
+.front{
+    background-color: blue;
+    color: white;
+    height: 1000px;
+    width:3000px;
+}
+
+ #showname #payname{
+    margin-left: -15px;
+    position: absolute;
+    left: 60%;
+    
+    visibility: hidden;
+    bottom: 100%;
+}
+
+#editform,#deleteform{
+    background-color: black;
+    color: white;
+    font-size: 23px;
+}
+#mysearch{
+color:white;
+background-color:darkslategray;
+width:200px;
+border-radius: 10px 15px 15px 10px;
+height: 50px;
+}
+
+
+
+#saveto,#close{
+width: 100px;
+background-color: black;
+color: white;
+margin-top: 20px;
+font-size: 23px;
+
+
+}
+
+
+#addcon{
+    height: 70px;
+    border-radius: 20%;
+    width: 100px;
+    background-color: blue;
+    color: white;
+    font-size: 25px;
+    position: relative;
+    left: 300px;
+    z-index: 6;
+    margin-bottom: 100px;
+    top: 10px;
+    
+    }
+
+#fname,#lname,#tel,#email,#company{
+
+    background-color: black;
+    color: white;
+    margin-top: 15px;
+    height: 70px;
+    opacity: 0.7;
+    border-color: white;
+    width: 560px;
+
+
+}
+#showname{
+margin-top:16px;
+position: relative;
+display: inline-block;
+top: 120px;
+
+
+}
+
+#forview{
+    position: relative;
+    top: 70px;
+}
+
+
+#people{
+    margin-top: 10px;
+}
+
+#payname{
+    width: 350px;
+    font-size: 20px;
+    
+}
+#instruct{
+    position: relative;
+    top: 180px;
+    left: 600px;
+    font-size: 25px;
+}
+
+#rights{
+    position: relative;
+    top: 300px;
+    left: 550px;
+    font-size: 25px;
+}
+
+
+#restdetailsa, #restdetailsb, #restdetailsc, #restdetailsd ,#restdetailse{
+
+    color: white;
+    background-color: black;
+
+}
+
+#tel::placeholder{
+    font-size: 28px;
+}
+#email::placeholder{
+    font-size: 28px;
+}
+
+
+
+
+@media screen and (max-width:416px) {
+    #mysearch{
+        color:white;
+        background-color:darkslategray ;
+        width:180px;
+        left: 20px;
+        position: relative;
+        }
+
+#showname{
+    left: 30px;
+    position: relative;
+
+}
+
+
+#people{
+
+    position: relative;
+    left: 20px;
+}
+
+
+#fname,#lname,#tel,#email,#company{
+
+    background-color: black;
+    color: white;
+    margin-top: 15px;
+    position: relative;
+    left: 20px;
+    height: 60px;
+ width: 200px;
+ border-color: white;
+
+}
+
+
+#payname{
+    margin-left: 0px;
+    position:relative;
+    left: 0px;
+    z-index: 5;
+    
+}
+#addcon{
+height: 70px;
+border-radius: 20%;
+width: 50px;
+background-color: blue;
+color: white;
+font-size: 25px;
+position: relative;
+left: 300px;
+z-index: 6;
+margin-bottom: 30px;
+
+}
+
+#tel::placeholder{
+    font-size: 23px;
+}
+#email::placeholder{
+    font-size: 23px;
+}
+.front{
+    position: relative;
+    
+    right:500px ;
+    color: white;
+    background-color: blue;
+}
+
+
+#userform{
+    display:none;
+    margin-top:200px;
+    position: relative;
+    bottom: 200px;
+    left: 150px;
+    
+}
+
+
+#contact{
+    position: relative;
+    left: 30px;
+}
+
+#instruct{
+    position: relative;
+    top: 180px;
+    left: 630px;
+    font-size: 25px;
+}
+
+#rights{
+    position: relative;
+    top: 300px;
+    left: 545px;
+    font-size: 25px;
+}
+
+}
